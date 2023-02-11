@@ -1,0 +1,27 @@
+{
+    "editor.rulers": [
+        88,
+    ],
+
+    "python.formatting.provider": "none",
+
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    },
+
+    "python.linting.enabled": true,
+
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=E203",
+        "--docstring-convention=numpy",
+        "--rst-roles=class,func,ref",
+        "--rst-directives=envvar,exception",
+        "--rst-substitutions=version",
+    ],
+
+    "python.linting.banditEnabled": true,
+    "editor.renderWhitespace": "trailing",
+}
