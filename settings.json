@@ -24,6 +24,11 @@
 
     "python.linting.banditEnabled": true,
     "editor.renderWhitespace": "trailing",
-    "files.trimFinalNewlines": false,
+    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "esbonio.sphinx.confDir": "",
+    "editor.formatOnType": true,
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\r\n",
+    "files.insertFinalNewline": true,
 }
