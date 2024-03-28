@@ -2,18 +2,11 @@
     "editor.rulers": [
         88,
     ],
-
-    "python.formatting.provider": "none",
-
     "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.formatOnSave": true
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
-
-    "python.linting.enabled": true,
-
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
+    "flake8.args": [
         "--max-line-length=88",
         "--ignore=E203",
         "--docstring-convention=numpy",
@@ -21,9 +14,10 @@
         "--rst-directives=envvar,exception",
         "--rst-substitutions=version",
     ],
-
-    "python.linting.banditEnabled": true,
     "editor.renderWhitespace": "trailing",
     "files.trimFinalNewlines": false,
     "files.trimTrailingWhitespace": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "esbonio.sphinx.confDir": "",
 }
