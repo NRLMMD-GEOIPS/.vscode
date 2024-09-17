@@ -1,0 +1,73 @@
+ | # # # Distribution Statement A. Approved for public release. Distribution unlimited.
+ | # # #
+ | # # # Author:
+ | # # # Naval Research Laboratory, Marine Meteorology Division
+ | # # #
+ | # # # This program is free software: you can redistribute it and/or modify it under
+ | # # # the terms of the NRLMMD License included with this program. This program is
+ | # # # distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+ | # # # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the included license
+ | # # # for more details. If you did not receive the license, for more information see:
+ | # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
+
+Version 1.8.0 (2023-03-12)
+**************************
+
+Installation
+============
+
+Remove VERSION file
+-------------------
+
+*From issue GEOIPS#192: 2023-03-07, Update version process*
+
+Remove VERSION file - use git tag only to track version
+
+::
+
+    removed: VERSION
+
+Code Formatting and Style Updates
+=================================
+
+Add rewrap formatting options
+-----------------------------
+
+*From issue GEOIPS#7: 2023-03-11, support general formatting*
+
+Use rewrap to automatically wrap lines in VSCode.
+
+::
+
+    modified: settings.json
+    modified: extensions.json
+
+Add YAML, JSON, and RST formatting options
+------------------------------------------
+
+*From issue GEOIPS#4: 2023-03-11, support YAML formatting*
+*From issue GEOIPS#5: 2023-03-11, support RST formatting*
+
+Use prettier for YAML and JSON formatting, and restructuredtext/doc8 extension
+for RST formatting.
+
+Additionally, including esbonio, in case we want to try it.
+
+::
+
+    modified: settings.json
+    modified: extensions.json
+
+Release Updates
+===============
+
+Add 1.8.0 release note
+----------------------
+
+*From issue GEOIPS#188: 2023-03-12, version update*
+
+::
+
+    modified: CHANGELOG.rst
+    new file: docs/source/releases/v1_8_0.rst
+    modified: docs/source/releases/index.rst
