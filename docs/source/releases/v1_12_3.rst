@@ -1,3 +1,5 @@
+.. dropdown:: Distribution Statement
+
  | # # # Distribution Statement A. Approved for public release. Distribution is unlimited.
  | # # #
  | # # # Author:
@@ -10,7 +12,25 @@
  | # # # for more details. If you did not receive the license, for more information see:
  | # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
 
-Please see geoips/CHANGELOG_TEMPLATE.rst for instructions on updating
-CHANGELOG appropriately with each PR
+Version 1.12.3 (2024-03-11)
+***************************
 
-Release notes for previous versions can be found in docs/source/releases, for reference
+* Release Updates
+
+  * Add release note for v1.12.3
+
+Release Process
+===============
+
+Add release note for v1.12.3
+----------------------------
+
+*From GEOIPS#458: 2024-02-17, 1.12.1 release*
+
+All updates until the next release (v1.12.3) will be included in
+this release note.
+
+::
+
+  modified: docs/source/releases/v1_12_3.rst
+  modified: docs/source/releases/index.rst
