@@ -1,0 +1,11 @@
+Documentation:
+- title: Remove index.rst
+  description: |
+    Remove index.rst to support new brassy-based documentation build strategy.
+    Also add latest release note to prompt release.
+  files:
+    deleted:
+    - docs/source/releases/index.rst
+  date:
+    start: 2025-03-27
+    finish: 2025-03-27
