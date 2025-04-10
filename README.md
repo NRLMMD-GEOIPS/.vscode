@@ -22,7 +22,7 @@ If you are editing a single repository:
 ## Working with multiple repositories
 If you are editing multiple repositories (e.g. multiple plugins or a plugin plus
 GeoIPS itself) you can ensure that all plugin repositories will use the same linting
-and formatting settings within VSCode by doing the following: 
+and formatting settings within VSCode by doing the following:
 - Clone all of the repositories that you are working on into a single directory
   (e.g. `$GEOIPS_PACKAGES_DIR`)
 - Clone .vscode into that same directory (e.g.
