@@ -44,6 +44,8 @@ changelog:
     - title: Testing Updates
       labels:
         - "testing"
+        - "code checks"
+        - "test repo updates"
     - title: Documentation Updates
       labels:
         - "documentation"
@@ -52,7 +54,7 @@ changelog:
         - "Version Release"
     - title: Developmental Updates
       labels:
-        - "Dev Update"
+        - "dev update"
     - title: Other Changes
       labels:
         - "*"
