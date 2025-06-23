@@ -1,0 +1,10 @@
+Documentation:
+- title: Add additional VSCode extensions
+  description: |
+    Provide standardized VSCode settings.
+  files:
+    added:
+    - extensions.json
+  date:
+    start: 2025-03-27
+    finish: 2025-03-27
